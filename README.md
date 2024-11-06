@@ -1,1 +1,3 @@
 An interesting paper that aims to increase the time rollout of PDE solutions. The architecture is inspired from a denoising type of approach where noise of different amplitudes, scheduled exponentially are added and the model is trained to denoise them, eventually learning to capture terms ranging across a wide frequency spectrum.
+
+Here is a self implementation of the PDERefiner architecture. I use a simplified network with lesser layers and channels. The model has been tested over the non-linear Burger equation. The code includes the data generation for the Burger equation along with the model implementation. Feel free to play around!
